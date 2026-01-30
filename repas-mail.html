@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invitation Mariage Tiffany & Frédéric</title>
+<style>
+    /* Import des polices Google pour imiter le style manuscrit */
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Great+Vibes&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1e1e1e;
+        font-family: 'Caveat', cursive, Arial, sans-serif;
+    }
+    .main-wrapper {
+        padding: 40px 10px;
+        background-image: url('https://raw.githubusercontent.com/tibo9/images-hoster/fa39199a6dbc5071e8d088475ad267ebed0bbe15/fond%20bois.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: clear;
+    }
+    .content-inner {
+        padding: 40px;
+        margin: 15px;
+        border-radius: 4px;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Great Vibes', cursive, 'Times New Roman', serif;
+        /* Changement: Couleur rose baie, plus riche, tirée des fleurs */
+        /*color: #D81B60; */
+        color: white;
+        font-size: 60px;
+        margin: 10px 0 20px 0;
+        line-height: 1.1;
+        font-weight: normal;
+    }
+    .sub-headline {
+        /* Changement: Brun chaud (couleur bois foncé) pour le texte principal */
+        color: black; 
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    /* Changement: Texte courant dans un brun/gris plus doux */
+    .main-text {
+        font-size: 32px; 
+        color: black; 
+        line-height: 1.6;
+    }
+    .separator {
+        /* Changement: Couleur Or/Moutarde pour les éléments graphiques */
+        color: black; 
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .cta-text {
+        font-weight: bold;
+        /* Changement: Brun chaud */
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 24px;
+    }
+    
+    /* Style de la vidéo */
+    .video-wrapper {
+        position: relative;
+        margin: 0 auto 30px auto;
+        max-width: 100%;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        /* Ajout: Fine bordure dorée autour de la vidéo */
+        border: 2px solid black;
+    }
+    .video-wrapper:hover {
+        transform: scale(1.02);
+    }
+    .video-preview {
+        width: 100%;
+        height: auto;
+        display: block;
+        filter: brightness(0.95);
+    }
+    .play-btn-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70px;
+        height: 70px;
+        /* Fond du bouton play légèrement teinté crème */
+        background-color: rgba(250, 248, 240, 0.9);
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .play-triangle {
+        width: 0; 
+        height: 0; 
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        /* Changement: Le triangle reprend le rose baie du titre */
+        border-left: 22px solid black;
+        margin-left: 5px;
+    }
+
+    /* Section RSVP festive */
+    .rsvp-container {
+        /* Changement: Fond pêche/crème très doux */
+        background-color: white; 
+        color: black;
+        padding: 25px;
+        border-radius: 8px;
+        margin-top: 30px;
+        font-size: 22px;
+        /* Changement: Bordure pointillée orange chaleureux */
+        border: 2px dashed black; 
+    }
+    .rsvp-date {
+        display: block;
+        font-size: 25px;
+        /* Changement: La date ressort en rose baie */
+        color: black; 
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .footer {
+        padding: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        /* Changement: Couleurs du footer plus chaudes */
+        color: #8D7F7A;
+        background-color: #FAF8F0; 
+        border-top: 1px solid #E0D4C6;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .content-inner { padding: 20px; margin: 10px; }
+        h1 { font-size: 42px; }
+    }
+</style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="container">
+        <div class="content-inner">
+            
+            <div class="sub-headline">Nous avons une grande nouvelle...</div>
+            
+            <h1>Tiffany & Frédéric</h1>
+            
+            <p class="main-text">
+                ont l'immense bonheur de vous inviter<br>à célébrer leur mariage !
+            </p>
+
+            <div class="separator">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+            <p class="cta-text">Découvrez la surprise en vidéo</p>
+
+            <a href="https://tibo9.github.io/repas-player.html" target="_blank" style="text-decoration: none; display: block;">
+                <div class="video-wrapper">
+                    <img src="https://raw.githubusercontent.com/tibo9/images-hoster/a0295d575911b1947846e2fbc45e537d747dd6a0/preview.png" alt="Lancer la vidéo" class="video-preview">
+                    
+                    <div class="play-btn-overlay">
+                        <div class="play-triangle"></div>
+                    </div>
+                </div>
+            </a>
+
+            <div class="rsvp-container">
+                Merci de confirmer votre présence,<br>
+                en précisant le nombre de personnes,<br>
+                <span class="rsvp-date">avant le 1er mai 2026</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
